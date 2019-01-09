@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/contactListItemName"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="First Name Last Name"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contactListItemEmail"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contactListItemAddButton"
+        android:layout_alignParentStart="true"
+        android:text="Email"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/contactListItemUsername"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/contactListItemName"
+        android:text="Username"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/contactListItemAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Add" />
+</RelativeLayout>

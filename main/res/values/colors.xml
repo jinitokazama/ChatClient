@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Default app colors-->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <!-- Colors for Blue and Orange theme -->
+    <color name="colorBluePrimary">#2196f3</color>
+    <color name="colorBlueDark">#1976d2</color>
+    <color name="colorOrangeAccent">#ff9800</color>
+
+    <!--Colors for the Green and Amber theme-->
+    <color name="colorGreenPrimary">#4caf50</color>
+    <color name="colorGreenDark">#087f23</color>
+    <color name="colorAmberAccent">#ffc107</color>
+
+    <!--Colors for the Red and Blue theme-->
+    <color name="colorRedPrimary">#f44336</color>
+    <color name="colorRedDark">#ba000d</color>
+    <color name="colorBlueAccent">#03a9f4</color>
+
+    <!--Colors for the Brown and Pink theme-->
+    <color name="colorBrownPrimary">#79554b</color>
+    <color name="colorBrownDark">#4b2c20</color>
+    <color name="colorPinkAccent">#ff4081</color>
+
+    <color name="colorWhite">#ffffffff</color>
+</resources>

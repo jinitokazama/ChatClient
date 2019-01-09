@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Chat</string>
+
+    <string name="login_prompt">Please log in or register</string>
+    <string name="login_prompt_2">If you\'ve forgotten your password please reset</string>
+    <string name="success_announcement">Login Successful</string>
+    <string name="login_failed_msg">Login failed: check email and password or register</string>
+    <string name="welcome_announcement">Welcome!</string>
+    <string name="register_prompt">Please register for an account</string>
+    <string name="register_fail_msg">Sorry, registration failed!</string>
+    <string name="register_succeed_msg">Congratulations, you registered successfully</string>
+
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="first_name_hint">First name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="email_hint">Email</string>
+
+    <string name="register_button">Register</string>
+    <string name="login_button">Login</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="stay_logged_check">Stay logged in</string>
+    <string name="logout_button">Logout</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="signin_resend">Go to Login</string>
+    <string name="signin_verify">Account Verified</string>
+    <string name="register_verify">An email with verification code has been sent to %1$s.</string>
+
+    <string name="reset_hint_email">Enter email</string>
+    <string name="reset_hint_code">Enter reset code and new password</string>
+    <string name="reset_message_failed">Sorry, that email doesn\'t belong to a verified account</string>
+    <string name="reset_message_code">Please check your email for a reset code</string>
+    <string name="reset_message_bad_code">Sorry that code was incorrect</string>
+    <string name="reset_message_success">Your password has been reset</string>
+
+    <string name="nav_header_welcome">Welcome!</string>
+    <string name="nav_header_options">Here are your options:</string>
+
+    <string name="options_menu_log_out">Log Out</string>
+    <string name="options_menu_settings">Settings</string>
+
+    <string name="settings_themes">Color Themes</string>
+    <string name="settings_blue_orange_theme">Blue and Orange</string>
+    <string name="settings_green_amber_theme">Green and Amber</string>
+    <string name="settings_red_blue_theme">Red and Blue</string>
+    <string name="settings_brown_pink_theme">Brown and Pink</string>
+
+    <string name="signup_email_sent">Another email has been sent. Send again?</string>
+
+    <string name="new_connection_enter_info_please">Please enter new connection information</string>
+    <string name="new_connection_email">Email</string>
+    <string name="new_connection_name">Name</string>
+    <string name="new_connection_nickname">Nickname</string>
+
+    <string name="home_info_more_weather_button">More Weather</string>
+    <string name="home_info_user_email">Email: userEmail</string>
+    <string name="home_info_user_name">Username: userName</string>
+    <string name="home_info_user_nickname">Nickname: userNickname</string>
+
+    <string name="pending_connections_title">Pending Connections:</string>
+    <string name="pending_connections_outgoing">Outgoing Requests:</string>
+    <string name="pending_connections_incoming">Incoming Requests:</string>
+    <string name="pending_connections_accept">Accept</string>
+    <string name="pending_connections_deny">Deny</string>
+    <string name="pending_connections_cancel">Cancel</string>
+
+    <string name="chat_input_msg">Write a message</string>
+
+    <string name="chat_input_username">Username</string>
+
+    <string name="chat_add__chat_member">Add</string>
+    <string name="chat_leave_chat">Leave</string>
+    <string name="chat_go_home">Home</string>
+    <string name="chat_add_stranger">New</string>
+    <string name="chat_session_activity">ChatSessionActivity</string>
+    <string name="weather_where_prompt">Where?</string>
+    <string-array name="weatherSWhereArray">
+        <item>Here</item>
+        <item>Pin</item>
+        <item>ZIP</item>
+        <item>Saved</item>
+    </string-array>
+
+    <string name="weather_when_prompt">When?</string>
+    <string name="weather_now">Now</string>
+    <string name="weather_tomorrow">Tomorrow</string>
+    <string name="weather_ten">Seven Days</string>
+    <string-array name="weatherSWhenArray">
+        <item>Now</item>
+        <item>Tomorrow</item>
+        <item>Seven Days</item>
+    </string-array>
+
+    <string name="home_info_location_msg">%1$f, %2$f</string>
+    <string name="weather_single_msg">%1$s: %2$s</string>
+    <string name="weather_five_msg">%1$s:\n %2$s | %3$s| %4$s| %5$s| %6$s | %7$s | %8$s</string>
+
+    <string name="weather_remember_button">Save for later</string>
+    <string name="weather_submit_button">Submit</string>
+    <string name="weather_zip_hint">ZIP</string>
+    <string name="home_info_weather_default">Loading...</string>
+    <string name="home_info_location_default">Please enable locations</string>
+
+    <string name="invite_header">Invite Your Friend To Our App!</string>
+
+    <string name="create_multichat">Create New Chat</string>
+    <string name="Enter_new_chat_name">Enter new chat name</string>
+
+    <string name="chat_options">Chat Options</string>
+
+    <string name="chat_inner_fragment_add_to_chat">Enter name to add to chat</string>
+
+    <string name="chat_inner_fragment_add_stranger">Enter name to invite to connect</string>
+
+    <string name="chat_inner_fragment_leave_chat">Leave Chat</string>
+    <string name="chat_inner_fragment_send">Send</string>
+    <string name="chat_inner_fragment_add">Add</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

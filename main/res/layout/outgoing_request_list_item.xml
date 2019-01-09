@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/outgoingRequestItemName"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="First Name Last Name"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/outgoingRequestItemEmail"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/outgoingRequestItemCancelButton"
+        android:layout_alignParentStart="true"
+        android:text="Email"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/outgoingRequestItemUsername"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/outgoingRequestItemName"
+        android:text="Username"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/outgoingRequestItemCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/pending_connections_cancel" />
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ep_base_url">chat-server-450.herokuapp.com</string>
+    <string name="ep_login">login</string>
+    <string name="ep_register">register</string>
+    <string name="ep_verify">verify</string>
+    <string name="ep_resend_code">resend</string>
+
+    <string name="ep_reset_password_email">resetAttempt</string>
+    <string name="ep_reset_password_code">resetSubmit</string>
+
+    <string name="ep_weather">weather</string>
+    <string name="ep_weather_current">current</string>
+    <string name="ep_weather_forecast">forecast</string>
+
+    <string name="ep_send_message">sendMessages</string>
+    <string name="ep_get_message">getMessages</string>
+    <string name="ep_send_request">sendRequest</string>
+    <string name="ep_get_all_message">getallMessages</string>
+
+    <string name="ep_pending">pending_request</string>
+    <string name="ep_pending_incoming">incoming</string>
+    <string name="ep_pending_outgoing">outgoing</string>
+
+    <string name="ep_search_contact">searchContact</string>
+    <string name="ep_get_contacts">getContacts</string>
+
+    <string name="pe_get_new_messages">getallmessages</string>
+
+    <string name="ep_my_chats">getMyChats</string>
+    <string name="ep_create_multichat">createChat</string>
+    <string name="ep_leave_chat">leaveChat</string>
+    <string name="ep_add_to_chat">addToChat</string>
+    <string name="ep_invite">invite</string>
+
+</resources>

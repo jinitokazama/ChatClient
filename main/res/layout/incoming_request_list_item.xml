@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/incomingRequestItemName"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/incomingRequestItemDenyButton"
+        android:layout_alignParentStart="true"
+        android:text="First Name Last Name"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/incomingRequestItemEmail"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/incomingRequestItemAcceptButton"
+        android:layout_alignEnd="@+id/incomingRequestItemName"
+        android:layout_alignParentStart="true"
+
+        android:text="Email"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/incomingRequestItemUsername"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/incomingRequestItemName"
+        android:layout_below="@+id/incomingRequestItemName"
+        android:layout_alignParentStart="true"
+        android:text="Username"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/incomingRequestItemAcceptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/pending_connections_accept" />
+
+    <Button
+        android:id="@+id/incomingRequestItemDenyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/incomingRequestItemAcceptButton"
+        android:text="@string/pending_connections_deny" />
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="keys_shared_prefs">group8.tcss450.uw.edu.chatclient.PREFS</string>
+    <string name="keys_sp_on">true</string>
+
+    <string name="keys_prefs_email">email</string>
+    <string name="keys_prefs_username">username</string>
+    <string name="keys_prefs_stay_logged_in">loggedIn</string>
+    <string name="keys_prefs_save_location">saved_location</string>
+
+    <string name="keys_fragment_login">loginFragmentTag</string>
+    <string name="keys_fragment_register">registerFragmentTag</string>
+
+    <string name="username_key">user_key</string>
+    <string name="password_key">pass_key</string>
+
+    <string name="location_key">weather_location_key</string>
+
+    <string name="reset_pass_tag">ResetPasswordFragment</string>
+    <string name="home_info_tag">HomeInformationFragment</string>
+
+    <string name="weather_site">https://www.apixu.com</string>
+
+    <string name="keys_send_button_description">Send</string>
+
+    <string name="keys_prefs_time_stamp">ts key</string>
+    <string name="keys_prefs_messages_time_stamp">messages check ts key</string>
+    <string name="keys_prefs_incoming_request_time_stamp">incoming ts key</string>
+    <string name="keys_prefs_outgoing_request_time_stamp">outgoing ts key</string>
+
+    <string name="keys_prefs_chat_time_stamp">chat ts key</string>
+
+    <string name="keys_extra_results">results</string>
+    <string name="keys_message_results">newMessages</string>
+    <string name="keys_is_foreground">FOREGROUND</string>
+
+    <string name="keys_json_username">username</string>
+    <string name="keys_json_otherUsername">otherUsername</string>
+    <string name="keys_json_answer">answer</string>
+    <string name="keys_json_password">password</string>
+    <string name="keys_json_email">email</string>
+    <string name="keys_json_firstname">first</string>
+    <string name="keys_json_lastname">last</string>
+    <string name="keys_json_message">message</string>
+    <string name="keys_json_messages">messages</string>
+    <string name="keys_json_success">success</string>
+    <string name="keys_json_chat_id">chatId</string>
+    <string name="keys_json_success_value_true">true</string>
+    <string name="keys_json_success_value_false">false</string>
+
+    <string name="keys_json_current_username">username</string>
+    <string name="keys_json_connection_username">connection</string>
+    <string name="keys_json_connection_verification">verified</string>
+
+    <string name="keys_json_checkbox_contacts_array">checkbox</string>
+    <string name="keys_json_chat_name">chatName</string>
+
+    <string name="keys_chatId">chatId</string>
+
+
+
+</resources>

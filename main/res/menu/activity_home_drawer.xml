@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_chat_list"
+            app:actionViewClass="android.widget.TextView"
+            android:icon="@drawable/ic_menu_chat_list"
+            android:title="Chat List" />
+        <item
+            android:id="@+id/nav_connections"
+            android:icon="@drawable/ic_menu_connections"
+            android:title="Connections" />
+        <item
+            android:id="@+id/nav_new_connections"
+            android:icon="@drawable/ic_menu_new_connection"
+            app:actionViewClass="android.widget.TextView"
+            android:title="Create new Connection" />
+        <item
+            android:id="@+id/nav_pending_connections"
+            android:icon="@drawable/ic_menu_pending_connections"
+            android:title="Pending Connections" />
+        <item
+            android:id="@+id/nav_invite_to_app"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Invite A Friend" />
+
+
+
+    </group>
+
+  <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+
+    </item>
+   -->
+</menu>
